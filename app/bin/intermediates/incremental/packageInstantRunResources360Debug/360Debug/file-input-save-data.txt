@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Sun Jul 01 15:58:06 CST 2018
+1.base=E\:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\assets\\360\\debug
+2.path=outfile.pcm
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=E\:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\assets\\360\\debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=baidu_speech_grammar.bsg
+count=4
+1.set=ASSET
+0.path=README.txt
+3.base=E\:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\assets\\360\\debug
+0.set=ASSET
+0.base=E\:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\assets\\360\\debug
+2.baseType=DIRECTORY
+1.path=WakeUp.bin

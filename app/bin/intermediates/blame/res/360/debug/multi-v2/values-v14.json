@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\incremental\\merge360DebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\core-0.9.4.4.aar\\6d66b65ec0982f9eeed32df77aeed033\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,406",
+                        "endLines": "8,17",
+                        "endColumns": "10,10",
+                        "endOffsets": "401,803"
+                    },
+                    "to": {
+                        "startLines": "21,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "1317,1668",
+                        "endLines": "27,36",
+                        "endColumns": "10,10",
+                        "endOffsets": "1663,2065"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\3b6a41f76f97eb4641454fbae36a4a3f\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    }
+                }
+            ]
+        }
+    ]
+}

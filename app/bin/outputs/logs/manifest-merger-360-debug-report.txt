@@ -1,0 +1,493 @@
+-- Merging decision tree log ---
+meta-data#UMENG_CHANNEL
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:65:9-67:46
+	android:value
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:67:13-43
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:66:13-41
+manifest
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6cb6072ed3c251bad03c6421ce3f378c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:2:1-15:12
+MERGED from [com.lguipeng.bubbleview:library:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\3adf146a27b21d7c9fb0877ebda1b877\AndroidManifest.xml:2:1-16:12
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:2:1-37:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\54f6bf5d32dc5d299280b7f79c5bc0ed\AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\3b6a41f76f97eb4641454fbae36a4a3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\30e51433469f6daecf7cf14c6cf1408d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\5915380b5f9a62d313ef4a8f3d852302\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\dd49ad798807b8a0289e2eb12cc3ce79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d8f26c9021465f064c2973f76c2e91e5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.orhanobut:logger:2.1.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\logger-2.1.1.aar\84c49717858adaf4b226e581d050ef14\AndroidManifest.xml:2:1-8:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\6548cc794d4160209c8449445579a1ab\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\edf322a5ec2641033e02dafb79cc3b22\AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\50b8a6c306a3d0826ae31c3356bdcc08\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e16e8d62f41bf0146d99a3cdb51961db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5127fabf1d97b3cfff79879ab42ceea7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\821fbb967b5d24590caf09f8a2cd4407\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bbc9c6f1913b61a61d3ad2c980098d29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e028ca5085093957158256bacecb9778\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aa9fd798cf29af392d0008f600302933\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\2bc114fe42a02be7ffb11b7d11ae6668\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e543ac0b2ff90245062ed711fcc6cfbc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1a7cd6d603b74cd4f0e9134c3a63a59d\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+	package
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:1-234:12
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6cb6072ed3c251bad03c6421ce3f378c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6cb6072ed3c251bad03c6421ce3f378c\AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:8:5-11:75
+MERGED from [com.lguipeng.bubbleview:library:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\3adf146a27b21d7c9fb0877ebda1b877\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lguipeng.bubbleview:library:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\3adf146a27b21d7c9fb0877ebda1b877\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\54f6bf5d32dc5d299280b7f79c5bc0ed\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\54f6bf5d32dc5d299280b7f79c5bc0ed\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\3b6a41f76f97eb4641454fbae36a4a3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\3b6a41f76f97eb4641454fbae36a4a3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\30e51433469f6daecf7cf14c6cf1408d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\30e51433469f6daecf7cf14c6cf1408d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\5915380b5f9a62d313ef4a8f3d852302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\5915380b5f9a62d313ef4a8f3d852302\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\dd49ad798807b8a0289e2eb12cc3ce79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\dd49ad798807b8a0289e2eb12cc3ce79\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d8f26c9021465f064c2973f76c2e91e5\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\d8f26c9021465f064c2973f76c2e91e5\AndroidManifest.xml:5:5-43
+MERGED from [com.orhanobut:logger:2.1.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\logger-2.1.1.aar\84c49717858adaf4b226e581d050ef14\AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.1.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\logger-2.1.1.aar\84c49717858adaf4b226e581d050ef14\AndroidManifest.xml:6:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\6548cc794d4160209c8449445579a1ab\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\6548cc794d4160209c8449445579a1ab\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\edf322a5ec2641033e02dafb79cc3b22\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\edf322a5ec2641033e02dafb79cc3b22\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\50b8a6c306a3d0826ae31c3356bdcc08\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\50b8a6c306a3d0826ae31c3356bdcc08\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e16e8d62f41bf0146d99a3cdb51961db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e16e8d62f41bf0146d99a3cdb51961db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5127fabf1d97b3cfff79879ab42ceea7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\5127fabf1d97b3cfff79879ab42ceea7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\821fbb967b5d24590caf09f8a2cd4407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\821fbb967b5d24590caf09f8a2cd4407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bbc9c6f1913b61a61d3ad2c980098d29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bbc9c6f1913b61a61d3ad2c980098d29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e028ca5085093957158256bacecb9778\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e028ca5085093957158256bacecb9778\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aa9fd798cf29af392d0008f600302933\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\aa9fd798cf29af392d0008f600302933\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\2bc114fe42a02be7ffb11b7d11ae6668\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\2bc114fe42a02be7ffb11b7d11ae6668\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e543ac0b2ff90245062ed711fcc6cfbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e543ac0b2ff90245062ed711fcc6cfbc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1a7cd6d603b74cd4f0e9134c3a63a59d\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\1a7cd6d603b74cd4f0e9134c3a63a59d\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:6:9-35
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml
+instrumentation
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:9:5-12:67
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:11:9-66
+	android:targetPackage
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:12:9-64
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:10:9-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:15:5-79
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:13:5-79
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:16:5-67
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:11:5-67
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:18:5-81
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:16:5-81
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:19:5-80
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:15:5-80
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:27:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:28:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:29:5-84
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:14:5-84
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:29:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:31:5-78
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:17:5-78
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:31:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:33:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:34:5-76
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:12:5-76
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:34:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:35:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:36:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:37:5-89
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:37:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:38:22-76
+application
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:40:5-232:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.4] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\core-0.9.4.4.aar\6d66b65ec0982f9eeed32df77aeed033\AndroidManifest.xml:13:5-20
+MERGED from [com.lguipeng.bubbleview:library:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\3adf146a27b21d7c9fb0877ebda1b877\AndroidManifest.xml:11:5-14:19
+MERGED from [com.lguipeng.bubbleview:library:1.0.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\3adf146a27b21d7c9fb0877ebda1b877\AndroidManifest.xml:11:5-14:19
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:19:5-35:19
+MERGED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:19:5-35:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\6548cc794d4160209c8449445579a1ab\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\6548cc794d4160209c8449445579a1ab\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\50b8a6c306a3d0826ae31c3356bdcc08\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\50b8a6c306a3d0826ae31c3356bdcc08\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:44:9-41
+	android:icon
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:43:9-45
+	android:allowBackup
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:42:9-35
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:45:9-40
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:41:9-84
+meta-data#com.baidu.speech.APP_ID
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:value
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:49:13-51
+meta-data#com.baidu.speech.API_KEY
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:51:9-53:56
+	android:value
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:53:13-53
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:52:13-52
+meta-data#com.baidu.speech.SECRET_KEY
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:54:9-56:64
+	android:value
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:56:13-61
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:55:13-55
+service#com.baidu.speech.VoiceRecognitionService
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:59:13-68
+meta-data#UMENG_APPKEY
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:62:9-64:56
+	android:value
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:64:13-53
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:63:13-40
+activity#com.robot.tuling.ui.MainActivity
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:69:9-78:20
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:71:13-33
+	android:windowSoftInputMode
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:72:13-67
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:70:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:73:13-77:29
+action#android.intent.action.MAIN
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:74:17-69
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:74:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:76:27-74
+activity#com.robot.tuling.ui.NewsActivity
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:80:13-44
+activity#com.robot.tuling.ui.DetailActivity
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:84:13-46
+activity#com.baidu.android.voicedemo.activity.ActivityOnline
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:86:9-96:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:89:13-33
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:88:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:87:13-79
+intent-filter#android.intent.action.MAIN+com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:91:13-95:29
+category#com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:94:17-104
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:94:27-101
+activity#com.baidu.android.voicedemo.activity.ActivityOffline
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:97:9-107:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:100:13-34
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:99:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:98:13-80
+activity#com.baidu.android.voicedemo.activity.ActivityNlu
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:108:9-118:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:112:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:111:13-40
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:110:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:109:13-76
+activity#com.baidu.android.voicedemo.activity.ActivityAllRecog
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:119:9-129:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:123:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:122:13-35
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:121:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:120:13-81
+activity#com.baidu.android.voicedemo.activity.ActivityWakeUp
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:130:9-140:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:134:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:133:13-32
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:132:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:131:13-79
+activity#com.baidu.android.voicedemo.activity.ActivityWakeUpRecog
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:141:9-151:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:144:13-34
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:143:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:142:13-84
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniRecog
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:152:9-162:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:155:13-34
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:154:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:153:13-87
+activity#com.baidu.android.voicedemo.activity.ActivityUiDialog
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:163:9-173:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:166:13-36
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:165:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:164:13-81
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniWakeUp
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:174:9-184:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:178:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:177:13-35
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:176:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:175:13-88
+activity#com.baidu.android.voicedemo.activity.mini.ActivityMiniTest
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:185:9-195:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:188:13-39
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:187:13-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:186:13-86
+activity#com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:196:9-207:20
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:200:13-49
+	android:exported
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:199:13-37
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:198:13-76
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:201:13-56
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:197:13-87
+intent-filter#android.intent.category.DEFAULT+com.baidu.action.RECOGNIZE_SPEECH
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:202:13-206:29
+action#com.baidu.action.RECOGNIZE_SPEECH
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:203:17-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:203:25-73
+category#android.intent.category.DEFAULT
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:205:17-76
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:205:27-73
+activity#com.baidu.android.voicedemo.activity.setting.OnlineSetting
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:208:9-213:72
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:212:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:211:13-35
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:210:13-76
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:213:13-69
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:209:13-86
+activity#com.baidu.android.voicedemo.activity.setting.OfflineSetting
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:214:9-219:72
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:218:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:217:13-36
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:216:13-76
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:219:13-69
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:215:13-87
+activity#com.baidu.android.voicedemo.activity.setting.NluSetting
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:220:9-225:72
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:224:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:223:13-33
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:222:13-76
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:225:13-69
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:221:13-83
+activity#com.baidu.android.voicedemo.activity.setting.AllSetting
+ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:226:9-231:72
+	android:screenOrientation
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:229:13-35
+	android:configChanges
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:228:13-76
+	android:theme
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:231:13-69
+	android:name
+		ADDED from E:\Tuling-master\Tuling-master\app\src\main\AndroidManifest.xml:227:13-83
+activity#com.sunfusheng.FirPermissionHelper$FirPermissionActivity
+ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:20:9-24:75
+	android:windowSoftInputMode
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:24:13-72
+	android:configChanges
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:21:13-84
+provider#android.support.v4.content.FileProvider
+ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:26:9-34:20
+	android:grantUriPermissions
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:30:13-47
+	android:authorities
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:28:13-65
+	android:exported
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:27:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:31:13-33:63
+	android:resource
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.sunfusheng:FirUpdater:1.0.7] C:\Users\asus\.gradle\caches\transforms-1\files-1.1\FirUpdater-1.0.7.aar\baab5b7e8f0dac304ca47c4881122c3a\AndroidManifest.xml:32:17-67

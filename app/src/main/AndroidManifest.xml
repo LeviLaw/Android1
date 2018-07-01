@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.robot.tuling">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Tests for com.baidu.speech.recognizerdemo"
+        android:targetPackage="com.baidu.speech.recognizerdemo" />
+    <!-- begin: baidu speech sdk  权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- end: baidu speech sdk  权限 -->
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.baidu.voicerecognition.android.ui.SimpleTransApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- 正式发布时，请替换成您自己的appId 本demo的appId会不定时下线 -->
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="11467399" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="5OiGmXiCpKSt5Ajof19FcfHb" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="8VgZlwrh6k27XZEChsZ2XbWeuVGLPm8p" />
+        <!-- 请确认集成后的包名是否正确，本demo的包名是com.baidu.speech.recognizerdemo，在build.gradle文件中查看 -->
+        <service
+            android:name="com.baidu.speech.VoiceRecognitionService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5704835b67e58ea608001000" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${umengHolder}" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="AI助手"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.NewsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityOnline"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="在线识别"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityOffline"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="离线命令词"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityNlu"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="语义解析（本地和在线）"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityAllRecog"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="全部识别功能"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityWakeUp"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="唤醒词"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityWakeUpRecog"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="唤醒后识别"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.mini.ActivityMiniRecog"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="精简版识别"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.ActivityUiDialog"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="对话框UI识别"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.mini.ActivityMiniWakeUp"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="精简版唤醒词"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.mini.ActivityMiniTest"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="批量测试音频文件识别"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.baidu.speech.recognizerdemo.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.baidu.action.RECOGNIZE_SPEECH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.setting.OnlineSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="在线识别设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.setting.OfflineSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="离线命令词设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.setting.NluSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="语义设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name="com.baidu.android.voicedemo.activity.setting.AllSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="全部识别设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+    </application>
+
+</manifest>

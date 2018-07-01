@@ -1,0 +1,4 @@
+#Sun Jul 01 15:54:27 CST 2018
+base.0=E\:\\Tuling-master\\Tuling-master\\app\\bin\\intermediates\\transforms\\dexMerger\\360\\debug\\64
+path.0=classes.dex
+renamed.0=classes.dex
